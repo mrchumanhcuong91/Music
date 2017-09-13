@@ -1,0 +1,14 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>Page1.qml</file>
+        <file>Page1Form.ui.qml</file>
+        <file>Screen1.qml</file>
+        <file>ListDelegate.qml</file>
+        <file>ListDelegateForm.ui.qml</file>
+        <file>img_df.png</file>
+        <file>TestFeature.qml</file>
+        <file>ic_info.png</file>
+        <file>ic_more_appbar.png</file>
+    </qresource>
+</RCC>
