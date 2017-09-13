@@ -14,7 +14,7 @@ Rectangle {
         x: 20
         y: 137
         width: 440
-        height: 445
+        height: 400
         spacing: 10
         model: ListModel {
             ListElement {
@@ -122,6 +122,69 @@ Rectangle {
             radius: 10
             border.width: 2
             border.color: "#ff5344"
+
+            Rectangle {
+                id: vn_btn
+                x: 8
+                y: 2
+                width: 140
+                height: 36
+                color: "#ffffff"
+                border.width: 0
+                border.color: "#ff5344"
+
+                Text {
+                    id: vn_text
+                    color: "#ff5344"
+                    text: qsTr("VIET NAM")
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.verticalCenter: parent.verticalCenter
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
+                    font.pixelSize: 23
+                }
+            }
+
+            Rectangle {
+                id: world_btn
+                x: 149
+                y: 2
+                width: 141
+                height: 36
+                color: "#ff5344"
+
+                Text {
+                    id: world_text
+                    color: "#ffffff"
+                    text: qsTr("WORLD")
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.verticalCenter: parent.verticalCenter
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
+                    wrapMode: Text.WrapAtWordBoundaryOrAnywhere
+                    font.pixelSize: 23
+                }
+            }
+
+            Rectangle {
+                id: us_btn
+                x: 290
+                y: 2
+                width: 141
+                height: 36
+                color: "#ffffff"
+
+                Text {
+                    id: us_text
+                    color: "#ff5344"
+                    text: qsTr("US-UK")
+                    anchors.horizontalCenter: parent.horizontalCenter
+                    anchors.verticalCenter: parent.verticalCenter
+                    verticalAlignment: Text.AlignVCenter
+                    horizontalAlignment: Text.AlignHCenter
+                    font.pixelSize: 23
+                }
+            }
         }
     }
 }
